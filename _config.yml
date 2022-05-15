@@ -14,11 +14,10 @@ author: Klaus Wiese
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Acerca de Mi: "Aquí probando una manera más de compartir lo que se hace y se peinsa."
+  Acerca de Mi: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "klauswiese.github.io"
+    - Aprende markdown: "https://www.markdowntutorial.com/"
+  Página del autor: "klauswiese.github.io"
 
 # --- Logo --- #
 
