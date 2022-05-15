@@ -16,7 +16,8 @@ author: Klaus Wiese
 navbar-links:
   Acerca de mi: "aboutme"
   Recursos:
-    - Aprende markdown: "https://www.markdowntutorial.com/"
+    - rspatial-sf/stars: "https://r-spatial.org/"
+    - rspatial-raster/terra: "https://rspatial.org/"
   Página del autor: "klauswiese.github.io"
 
 # --- Logo --- #
