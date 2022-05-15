@@ -32,7 +32,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+title-img: "/assets/img/Hondunauta.jpg"
 
 
 # --- Footer social media links --- #
@@ -40,7 +40,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "klauswiese@hotmail.com"
+  #email: "klauswiese@hotmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   github: klauswiese
   twitter: hondunauta1
@@ -118,7 +118,7 @@ footer-hover-col: "#0085A1"
 
 #navbar-img: "/assets/img/hondunauta.jpg"
 #footer-img: "/assets/img/bgimage.png"
-page-img: "/assets/img/hondunauta.jpg"
+#page-img: "/assets/img/hondunauta.jpg"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
