@@ -18,6 +18,7 @@ navbar-links:
   Recursos:
     - rspatial-sf/stars: "https://r-spatial.org/"
     - rspatial-raster/terra: "https://rspatial.org/"
+    - rgee: "https://github.com/r-spatial/rgee"
   Página del autor: "klauswiese.github.io"
 
 # --- Logo --- #
