@@ -14,8 +14,8 @@ author: Klaus Wiese
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Acerca de Mi: "aboutme"
-  Resources:
+  Acerca de mi: "aboutme"
+  Recursos:
     - Aprende markdown: "https://www.markdowntutorial.com/"
   Página del autor: "klauswiese.github.io"
 
