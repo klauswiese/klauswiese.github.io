@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: Mi Sitio Web (Prueba)
+title: Hondunauta
 
 # Your name to show in the footer
 author: Klaus Wiese
@@ -14,7 +14,7 @@ author: Klaus Wiese
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  Acerca de Mi: "Aquí probando una manera más de compartir lo que se hace y se peinsa."
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
