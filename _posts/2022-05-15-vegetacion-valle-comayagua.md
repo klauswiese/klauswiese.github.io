@@ -46,7 +46,7 @@ Los nombres científicos utilizados para estimar la riqueza por cada agrupación
 
 La manera de agrupar los datos es muy útil, mostrando la riqueza de los **Tunales** ,  la gran cantidad de cactus (11) que se encontraron en el Valle. Otra formación vegetal muy común son los **Carbonales**, probablemente una de las primeras sucesiones después de el descombro en el bosque seco del Valle.
 
-Es sorprendente la gran cantidad de **Bejucos**,  así como las pocas **Epifitas**, el número de especies en **Bosques de Galería** y finalmente los **Árboles** que según en escrito eran escasos en la zona con representantes de 5 a 10 metros de altura.
+Es sorprendente la gran cantidad de **Bejucos**,  así como las pocas **Epifitas** vistas, el número de especies en **Bosques de Galería** que permanecian verdes todo el año y finalmente los **Árboles** que según el escrito eran escasos en la zona con representantes de 5 a 10 metros de alto.
 
 La información histórica es de vital importancia para entender la dinámica temporal de los ensamblajes de la vegetación en virtud de la presión a la que es sometida por los humanos.
 
