@@ -17,7 +17,7 @@ Mi admiración hacia el profesor Molina comenzó con las historias que mi herman
 
 En mi afán de aprender a escribir y poder plasmar ideas en texto, he decidido escribir de manera periódica sobre las cosas que leo y estudio. Este "post" es el primero y espero que el blog siga creciendo con mis escritos. Desde hace un tiempo sigo la obra de los botánicos hondureños, el profesor Molina es uno de los más productivos en su obra, además de ser la piedra angular de la botánica hondureña.
 
-## 3. Vegetación del Valle de Comaygua
+## 3. Vegetación del Valle de Comayagua
 Como inicio Seleccioné el artículo [**Vegetación del Valle de Comayagua**](https://revistas.zamorano.edu/index.php/CEIBA/article/view/831) que el profesor Molina publicó en el año 1974 en la [revista Ceiba](https://revistas.zamorano.edu/index.php/CEIBA) de la EAP. En esta publicación Molinita, como de cariño le llamaban sus estudiantes, generó listados de plantas del Valle de Comayagua desde dos perspectivas:
 
 - Visitas de campo a diferentes sitios a lo largo y ancho del valle
@@ -30,17 +30,29 @@ En este "post" abarcaremos los resultados encontrados en las visitas al Valle de
 
 Logró identificar 169 especies diferentes de plantas y las agrupo en una mezcla de formaciones vegetales y formas de vida:
 
-| Formación/Forma de vida | Riqueza     |
-|-------------------------|-------------|
-| Árboles 		            | 29          |
-| Carbonales              | 12          |
-| Tunales                 | 11          |
-| Arbustos                | 20          |
-| Epífitas                | 18          |
-| Bejucos                 | 41          |
-| Bosque de Galería       | 38          |
+| Formación / Forma de vida | Riqueza     |
+|---------------------------|-------------|
+| Árboles 		                | 29          |
+| Carbonales                | 12          |
+| Tunales                   | 11          |
+| Arbustos                  | 20          |
+| Epifitas                  | 18          |
+| Bejucos                   | 41          |
+| Bosque de Galería         | 38          |
 
+## 5. Discusión
 
+Los nombres científicos utilizados para estimar la riqueza por cada agrupación usada por el Profesor Molina corresponden a la realidad taxonómica de 1974 y seguramente muchos de estos nombres hoy no continúan siendo los mismos, sin embargo estos datos siguen siendo muy valiosos.
+
+La manera de agrupar los datos es muy útil, mostrando la riqueza de los **Tunales** ,  la gran cantidad de cactus (11) que se encontraron en el Valle. Otra formación vegetal muy común son los **Carbonales**, probablemente una de las primeras sucesiones después de el descombro en el bosque seco del Valle.
+
+Es sorprendente la gran cantidad de **Bejucos**,  así como las pocas **Epifitas**, el número de especies en **Bosques de Galería** y finalmente los **Árboles** que según en escrito eran escasos en la zona con representantes de 5 a 10 metros de altura.
+
+La información histórica es de vital importancia para entender la dinámica temporal de los ensamblajes de la vegetación en virtud de la presión a la que es sometida por los humanos.
+
+## 6. El Próximo Post
+
+En el próximo “post” usaremos las listas colectadas en campo y recopiladas en el herbario de EAP, para usar la herramienta [taxize](https://f1000research.com/articles/2-191), de donde derivaremos el porcentaje de especies que siguen con la misma nomenclatura o los que han cambiado a nivel de especie, genero y familia botánica. Entendemos que lo mejor es revisar las muestras botánicas y no depender únicamente del nombre científico reportado por el Profesor Molina, esta labor no corresponde a este escrito y sabemos que los nuevos botánicos hondureños ya están en esta titánica labor.
 
 
 
