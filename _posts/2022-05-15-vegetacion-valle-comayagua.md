@@ -5,7 +5,7 @@ subtitle: La Obra del Decano de la Botánica Hondureña
 cover-img: /assets/img/ComaSentinel.png
 thumbnail-img: /assets/img/ValleDeComayagua_AntMolinaRositto1974.png
 share-img: /assets/img/path.jpg
-tags: [Historia Botánica, Honduras, Molinita, Revista Ceiba]
+tags: [Historia Botánica, Honduras, Molinita, Revista Ceiba, EAP, Valle de Comayagua, Ant. Molina]
 ---
  
  
