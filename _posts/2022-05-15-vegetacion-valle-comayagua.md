@@ -29,15 +29,15 @@ En este "post" abarcaremos los resultados encontrados en las visitas al Valle de
 
 Logró identificar 169 especies diferentes de plantas y las agrupo en una mezcla de formaciones vegetales y formas de vida:
 
-| Formación / Forma de vida | Riqueza     |
-|---------------------------|-------------|
-| Árboles 		                | 29          |
-| Carbonales                | 12          |
-| Tunales                   | 11          |
-| Arbustos                  | 20          |
-| Epifitas                  | 18          |
-| Bejucos                   | 41          |
-| Bosque de Galería         | 38          |
+|# | Formación / Forma de vida | Riqueza     |
+|--|---------------------------|-------------|
+|1 | Árboles 		                | 29          |
+|2 | Carbonales                | 12          |
+|3 | Tunales                   | 11          |
+|4 | Arbustos                  | 20          |
+|5 | Epifitas                  | 18          |
+|6 | Bejucos                   | 41          |
+|7 | Bosque de Galería         | 38          |
 
 ## 5. Discusión
 
