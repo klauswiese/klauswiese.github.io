@@ -20,9 +20,23 @@ Como inicio Seleccioné el artículo [**Vegetación del Valle de Comayagua**](ht
 - Visitas de campo a diferentes sitios a lo largo y ancho del valle
 - Revisión de muestras depositadas en el herbario Paul C. Standley de la EAP
 
-En este "post" abarcaremos los resultados encontrados en las visitas al Valle de Comayagua y en posteriores escritos veremos los resultados de la revisión de muestras botánicas. El profesor Molina visitó 9 municipios de los departamentos de Comayagua y La Paz. Más específicamente fue a 14 localidades del Valle de Comayagua.
+En este "post" abarcaremos los resultados encontrados en las visitas al Valle de Comayagua y en posteriores escritos veremos los resultados de la revisión de muestras botánicas. El profesor Molina visitó 9 municipios de los departamentos de Comayagua y La Paz. Más específicamente fue a [14 localidades del Valle de Comayagua](klauswiese.github.io/assets/HTML/ValleComayagua/index.html).
 
 ![alt text](/assets/img/ValleDeComayagua_AntMolinaRositto1974.png)
+
+Logró identificar 169 especies diferentes de plantas y las agrupo en una mezcla de formaciones vegetales y formas de vida:
+
+| Formación         | Riqueza     |
+|-------------------|-------------|
+| Arboles 		      | 29          |
+| Carbonales        | 12          |
+| Tunales           | 11          |
+| Arbustos          | 20          |
+| Epífitas          | 18          |
+| Bejucos           | 41          |
+| Bosque de Galería | 38          |
+
+
 
 
 
