@@ -23,7 +23,7 @@ Como inicio Seleccioné el artículo [**Vegetación del Valle de Comayagua**](ht
 - Revisión de muestras depositadas en el herbario Paul C. Standley de la EAP
 
 ## 4. Resultados de las Visitas de Campo al Valle de Comayagua
-En este "post" abarcaremos los resultados encontrados en las visitas al Valle de Comayagua y en posteriores escritos veremos los resultados de la revisión de muestras botánicas. El profesor Molina visitó 9 municipios de los departamentos de Comayagua y La Paz. Más específicamente fue a 14 localidades del Valle de Comayagua. [ver modelo 3D del Valle](https://klauswiese.github.io/assets/HTML/ValleComayagua/index.html).
+En este "post" abarcaremos los resultados encontrados en las visitas al Valle de Comayagua y en posteriores escritos veremos los resultados de la revisión de muestras botánicas. El profesor Molina visitó 9 municipios de los departamentos de Comayagua y La Paz. Más específicamente fue a 14 localidades del Valle de Comayagua.
 
 ![alt text](/assets/img/ValleDeComayagua_AntMolinaRositto1974.png)
 
