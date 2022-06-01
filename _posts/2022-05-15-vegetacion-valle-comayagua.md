@@ -27,6 +27,10 @@ En este "post" abarcaremos los resultados encontrados en las visitas al Valle de
 
 ![alt text](/assets/img/ValleDeComayagua_AntMolinaRositto1974.png)
 
+
+<iframe src="https://klauswiese.github.io/assets/HTML/ValleComayagua/index.html" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+
+
 Logró identificar 169 especies diferentes de plantas y las agrupo en una mezcla de formaciones vegetales y formas de vida:
 
 |# | Formación / Forma de vida | Riqueza     |
