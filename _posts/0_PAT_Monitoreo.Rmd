@@ -1,0 +1,372 @@
+---
+title: "Monitoreo Desarollo PATs - CRA"
+author: "[FbF-LAC](https://twitter.com/fbf_lac?lang=en)"
+date: "2023"
+output: 
+  flexdashboard::flex_dashboard:
+    logo: Logo/GRC.png
+    orientation: columns
+    theme: readable
+---
+  
+```{r setup, include=FALSE}
+library(dplyr)
+library(flexdashboard)
+library(RColorBrewer)
+library(ggplot2)
+library(tidyverse)
+library(emojifont)
+
+
+#Data
+#Valores de avance por capítulo PAT
+Data <- readxl::read_xlsx("XLSX/Cuadro seguimiento PATs.xlsx",
+                          sheet = 2)
+
+#Datos de cada PAT
+Data2 <- readxl::read_xlsx("XLSX/Cuadro seguimiento PATs.xlsx",
+                           sheet = 1, 
+                           skip = 1)
+
+#Datos de avance de cada SEAP
+Data3 <- readxl::read_xlsx("XLSX/Cuadro seguimiento PATs.xlsx",
+                           sheet = 3)
+  
+```
+
+Planes de Acción Temprana Activos con Asistencia de Cruz Roja Alemana
+=======================================================================
+
+Row
+-----------------------------------------------------------------------
+
+### **PAT Inundaciones Argentina**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[1]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **PAT Olas de Calor Argentina**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[2]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **SEAP Conflicto Armado Colombia**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[3]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **PAT Inundaciones Colombia**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[4]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+Row
+-----------------------------------------------------------------------
+
+### **PAT Dengue Colombia**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[5]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **SEAP Sequía Colombia**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[6]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **SEAP Migración Panamá**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[7]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **SEAP Sequía Panamá**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[8]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+Row
+-----------------------------------------------------------------------
+
+### **PAT Sequía Costa Rica**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[10]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **PAT Lluvias Intensas Costa Rica**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[11]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **SEAP Migración Costa Rica**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[12]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **PAT Sequía El Salvador**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[13]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+Row
+-----------------------------------------------------------------------
+
+### **PAT Inundaciones El Salvador**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[14]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **SEAP Migración El Salvador**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[15]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **PAT Migración Honduras**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[16]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **SEAP Retornados Honduras**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[17]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+Row
+-----------------------------------------------------------------------
+
+### **SEAP Ceniza Volcánica Guatemala**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[20]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **SEAP Migración Guatemala**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[21]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **PAT Sequía Guatemala**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[24]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
+
+### **SEAP Migración México**
+
+```{r}
+Cap1 <- round(as.numeric(Data2$`redaccion (keywords AR, MA/PRON, ToC, AT, PSTO)`[25]), 2)
+
+gauge(Cap1, 
+      min = 0, 
+      max = 100, 
+      symbol = '%', 
+      gaugeSectors(success = c(80, 100), 
+                   warning = c(40, 79), 
+                   danger = c(0, 39),
+                             colors = c("darkgreen", "orange", "darkred")
+))
+```
